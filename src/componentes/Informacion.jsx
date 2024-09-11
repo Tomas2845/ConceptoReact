@@ -1,4 +1,5 @@
 import React from "react";
+import Teoria from "./Teoria";
 
 const Informacion = () => {
   // Aqui la mayor parte de logica
@@ -17,6 +18,7 @@ const Informacion = () => {
         modular, lo que facilita el desarollo el mantenimiento de aplicaicones a
         gran escala.
       </p>
+      <Teoria></Teoria>
     </section>
   );
 };
