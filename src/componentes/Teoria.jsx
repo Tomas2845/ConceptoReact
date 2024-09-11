@@ -1,6 +1,6 @@
 import React from "react";
 
-const Teoria = () => {
+const Teoria = (props) => {
   return (
     <article>
       <h3>Componentes</h3>
@@ -13,6 +13,7 @@ const Teoria = () => {
         funcionales, aunque los componentes funcionales se gan vuelto mas
         populares con la introduccion de los hooks
       </p>
+      <h4>Comision: {props.comision}</h4>
     </article>
   );
 };
