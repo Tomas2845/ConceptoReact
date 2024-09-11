@@ -4,6 +4,8 @@ import Teoria from "./Teoria";
 const Informacion = () => {
   // Aqui la mayor parte de logica
 
+  const anio = new Date().getFullYear();
+
   return (
     // algo de logica, pero no se suele. solo maquetado del sitio
     <section>
@@ -21,8 +23,8 @@ const Informacion = () => {
 
       {/* enviar un props */}
 
-      <Teoria comision='101i'></Teoria>
-      
+      <Teoria comision='101i' anioActual={anio}></Teoria>
+
     </section>
   );
 };

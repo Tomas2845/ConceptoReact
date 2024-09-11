@@ -13,7 +13,7 @@ const Teoria = (props) => {
         funcionales, aunque los componentes funcionales se gan vuelto mas
         populares con la introduccion de los hooks
       </p>
-      <h4>Comision: {props.comision}</h4>
+      <h4>Comision: {props.comision} anio: {props.anioActual}</h4>
     </article>
   );
 };
